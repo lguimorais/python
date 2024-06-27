@@ -10,4 +10,6 @@ nota3 = float(input("Digite a terceira nota: "))
 media = (nota1 + nota2 + nota3) / 3
 media = "{:.2f}".format(media)
 print("Média: ", media)
-
+op= input("Deseja continuar: Sim ou Não?")
+if op.lower()!="Sim":
+    print("Fim do programa")
