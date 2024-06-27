@@ -1,0 +1,12 @@
+matricula = input("Digite a matrícula do aluno: ")
+nome = input("Digite o nome do aluno: ")
+curso = input("Digite o curso do aluno: ")
+print("Matrícula: ", matricula)
+print("Nome: ", nome)
+print("Curso: ", curso)
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+media = (nota1 + nota2 + nota3) / 3
+media = "{:.2f}".format(media)
+print("Média: ", media)
